@@ -24,3 +24,11 @@ function appendKitten(name) {
   otherArray = kittens.concat(newArray);
   return otherArray;
 }
+
+function prependKitten(name) {
+  var newArray;
+  var otherArray;
+  newArray.push(name);
+  otherArray = newArray.concat(kittens);
+  return otherArray;
+}
